@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MobileCW2</string>
+    <string name="myvies">Myvies</string>
+    <string name="your_movie_database">Your movie database</string>
+    <string name="register_movie">Register Movie</string>
+    <string name="display_movies">Display Movies</string>
+    <string name="favourites">Favourites</string>
+    <string name="edit_movies">Edit Movies</string>
+    <string name="search">Search</string>
+    <string name="ratings">Ratings</string>
+    <string name="enter_movie_review">Enter movie review:</string>
+    <string name="enter_movie_rating">Enter movie rating:</string>
+    <string name="enter_movie_actors_or_actresses">Enter movie actors or actresses</string>
+    <string name="enter_movie_year">Enter movie year:</string>
+    <string name="enter_movie_director">Enter movie director:</string>
+    <string name="enter_movie_title">Enter movie title:</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="save">Save</string>
+    <string name="edit_movie">Edit Movie</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="favourite_or_not_favourite">Favourite or Not Favourite</string>
+    <string name="title">Title</string>
+    <string name="year">Year</string>
+    <string name="director">Director</string>
+    <string name="actors_and_actresses">Actors and Actresses</string>
+    <string name="rating">Rating</string>
+    <string name="review">Review</string>
+    <string name="enter_movie_director_actor_actress_name">Enter movie/director/actor/actress name</string>
+    <string name="lookup">Lookup</string>
+    <string name="search_on_imdb">Search on IMDB</string>
+    <string name="delete">Delete</string>
+    <string name="delete_movie">Delete Movie</string>
+</resources>
