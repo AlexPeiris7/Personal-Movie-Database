@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alexiopeiris.mobilecw2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".EditSelectedMovie" />
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".Ratings" />
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".Search" />
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".EditMovies" />
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".Favourites" />
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".DisplayMovies" />
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".RegisterMovie" />
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>
